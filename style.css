@@ -304,7 +304,7 @@
 .red5
 {
     width: 70%;
-    height: 500px;
+    height: 900px;
     border: 2px solid red;
     margin: auto;
 }
@@ -337,6 +337,26 @@
 .xat
 {
     border-bottom: 1px solid rgba(128, 128, 128, 0.595);
+}
+.galochka-maydash
+{
+    width: 100%;
+    height: 50px;
+    background-color: white;
+    box-shadow: 0px 0px 10px gray;
+    border-radius: 10px;
+    margin-top: 20px;
+}
+.g1017
+{
+    width: 30px;
+}
+.div-text-galochka
+{
+    display: flex;
+    align-items: center;
+    padding: 10px;
+    justify-content: space-between;
 }
 @media (max-width:510px) {
     .divP
@@ -458,5 +478,26 @@
     width: 50px;
     height: 50px;
     /* padding: 40px; */
+}
+.red5
+{
+    width: 90%;
+    height: 900px;
+}
+.border
+{
+    height: 500px;
+}
+.media
+{
+    width: 100px;
+}
+.none
+{
+    display: none;
+}
+.h4media
+{
+    font-size: 10px;
 }
 }
