@@ -202,7 +202,7 @@
 {
     width: 70%;
     height: 500px;
-    border: 2px solid red;
+    /* border: 2px solid red; */
     margin: auto;
     margin-top: 50px;
 }
@@ -267,6 +267,39 @@
 .fatima
 {
     width: 190px;
+}
+.red4
+{
+    width: 70%;
+    height: 950px;
+    margin: auto;
+    margin-top: 50px;
+    border:  2px solid red;
+}
+.contener
+{
+    width: 250px;
+    height: 200px;
+    border-radius: 20px;
+    background-color: white;
+    box-shadow: 0px 0px 10px gray;
+}
+.img-3
+{
+    padding: 20px;
+    width: 60px;
+    margin-left: 70px ;
+}
+.div-flex-contener
+{
+    display: flex;
+    justify-content: space-around;
+    margin-top: 100px;
+}
+.vidio
+{
+    width: 100%;
+    margin-top: 50px;
 }
 @media (max-width:510px) {
     .divP
@@ -364,5 +397,29 @@
 .red3
 {
     height: 700px;
+}
+.red4
+{
+    height: 1140px;
+    width: 97%;
+
+}
+.div-flex-contener
+{
+    flex-wrap: wrap;
+    row-gap: 30px;
+}
+.contener
+{
+    width: 90%;
+    display: flex;
+    align-items: center;
+    position: relative;
+}
+.img-3
+{
+    width: 50px;
+    height: 50px;
+    /* padding: 40px; */
 }
 }
