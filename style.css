@@ -63,6 +63,55 @@
     margin-left: 170px;
     top: 70px;
 }   
+.red
+{
+    width: 70%;
+    height: 500px;
+    margin: auto;
+    /* border: 2px solid. red; */
+    margin-top: 50px;
+}
+.p-naw-uslug
+{
+    font-size: 20px;
+    color: rgba(17, 120, 178, 1);
+}
+.h6analiticheskoe
+{
+    color: rgba(17, 120, 178, 1);
+
+    /* color: ; */
+}
+.P-odnim
+{
+    width: 370px;
+    color: gray;
+}
+.button3
+{
+    padding: 10px;
+    background-color: rgba(7, 175, 145, 1);
+    color: white;
+    border-radius: 10px;
+    border: none;
+    width: 150px;
+}
+.div-text
+{
+    display: flex;
+    flex-direction: column;
+    row-gap: 20px;
+    padding-top: 30px;
+}
+.div-glavni-flex
+{
+    display: flex;
+    justify-content: space-around;
+}
+.img-sourch
+{
+    width: 400px;
+}
 @media (max-width:510px) {
     .divP
     {
@@ -78,4 +127,27 @@
         right: 100px;
         /* text-align: center; */
     }
+    .div-glavni-flex
+    {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+        row-gap: 30px;
+    }.img-sourch
+{
+    width: 90%;
+}
+.P-odnim
+{
+    width: 100%;
+    text-align: center;
+}
+.button3
+{
+    width: 90%;
+}
+.h6analiticheskoe
+{
+    text-align: center;
+}
 }
