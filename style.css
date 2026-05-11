@@ -198,6 +198,76 @@
     margin-left: 700px;
     margin-top: 50px;
 }
+.red3
+{
+    width: 70%;
+    height: 500px;
+    border: 2px solid red;
+    margin: auto;
+    margin-top: 50px;
+}
+.h1-ctakim
+{
+    color: rgba(17, 120, 178, 1);
+
+}
+.button1-5
+{
+   padding: 20px;
+   background-color: rgba(136, 187, 216, 1);
+   color: white;
+   border: 1px solid gray; 
+    width: 200px;
+}
+.div-button
+{
+    display: flex;
+    /* padding: 100px; */
+}
+.bac-img2
+{
+    width: 100%;
+    height: 300px;
+    background-image: url("./imges/Vector (10).png");
+}
+.h1-chem
+{
+    width: 300px;
+}
+.p-OAE
+{
+    color: gray;
+    width: 250px;
+}
+.button9
+{
+    width: 150px;
+    padding: 15px;
+    border: none;
+    border-radius: 10px;
+    background-color: rgba(97, 181, 228, 1);
+    color: white;
+}
+.div-qatar
+{
+    display: flex;
+    flex-direction: column;
+    row-gap: 30px;
+}
+.gr744
+{
+    width: 400px;
+}
+.div-glavni-qatar
+{
+    display: flex;
+    justify-content: space-around;
+    margin-top: 80px;
+}
+.fatima
+{
+    width: 190px;
+}
 @media (max-width:510px) {
     .divP
     {
@@ -270,5 +340,29 @@
     /* right: 670px; */
     /* width: 90%; */
     display: none;
+}
+.red3
+{
+    width: 90%;
+}
+.h1-ctakim
+{
+    text-align: center;
+}
+.fatima
+{
+    display: none;
+}
+.div-glavni-qatar
+{
+    flex-wrap: wrap;
+}
+.gr744
+{
+    width: 100%;
+}
+.red3
+{
+    height: 700px;
 }
 }
