@@ -304,8 +304,8 @@
 .red5
 {
     width: 70%;
-    height: 900px;
-    border: 2px solid red;
+    height: 1030px;
+    /* border: 2px solid red; */
     margin: auto;
 }
 .h1-programma
@@ -482,7 +482,7 @@
 .red5
 {
     width: 90%;
-    height: 900px;
+    height: 1240px;
 }
 .border
 {
