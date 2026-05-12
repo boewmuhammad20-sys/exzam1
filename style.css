@@ -397,6 +397,41 @@
     justify-content: space-around;
     align-items: center;
 }
+.red6
+{
+    width: 70%;
+    height: 600px;
+    border: 2px solid red;
+    margin: auto;
+    margin-top: 50px;
+}
+.cont2
+{
+    width: 250px;
+    height: 200px;
+    background-color: white;
+    border-radius: 20px;
+    box-shadow: 0px 0px 10px gray;
+}
+.h1-0101
+{
+    font-size: 70px;
+    color: rgba(17, 120, 178, 0.5);
+    font-weight: 900;
+    text-align: center;
+}
+.p-grey
+{
+    width: 240px;
+    color: gray;
+    text-align: center;
+}
+.div-fl-cont2
+{
+    display: flex;
+    justify-content: space-around;
+    margin-top: 50px;
+}
 @media (max-width:510px) {
     .divP
     {
@@ -565,5 +600,24 @@
 .button11
 {
     width: 99%;
+}
+.red6
+{
+   width: 99%;
+    height: 1550px;
+}
+.div-fl-cont2
+{
+    flex-wrap: wrap;
+    row-gap: 30px;
+}
+.cont2
+{
+    width: 90%;
+}
+.p-grey
+{
+    margin: auto;
+    text-align: center;
 }
 }
