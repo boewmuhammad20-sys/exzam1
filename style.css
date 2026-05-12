@@ -689,6 +689,67 @@
     justify-content: space-around;
     margin-top: 50px;
 }
+.bac-img5
+{
+    width: 100%;
+    height: 400px;
+    background-image: url("./imges/Group 815.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    margin-top: 50px;
+}
+.telegram
+{
+    width: 200px;
+}
+.div-tg
+{
+    color: white;
+    display: flex;
+    flex-direction: column;
+    row-gap: 50px;
+}
+.form
+{
+    width: 300px;
+    height: 200px;
+    background-color: white;
+    border-radius: 20px;
+    box-shadow: 0px 0px 5px gray;
+}
+.div-flex-tg
+{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 90px;
+}
+.xat
+{
+    border-bottom: 1px solid rgba(128, 128, 128, 0.301);
+}
+.footer
+{
+    width: 100%;
+    height: 100px;
+    background-image:linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url("./imges/uae-4-2048x1367 3.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    margin-top: 80px;
+}
+.div-text-footer
+{
+    display: flex;
+    color: white;
+    justify-content: space-around;
+    align-items: center;
+}
+.nest
+{
+    display: flex;gap: 30px;
+}
 @media (max-width:510px) {
     .divP
     {
@@ -999,5 +1060,23 @@ width: 97%;
 {
     width: 90%;
     height: 340px;
+}
+.div-flex-tg
+{
+    flex-wrap: wrap;
+    row-gap: 30px;
+}
+.bac-img5
+{
+    height: 600px;
+}
+.footer
+{
+    width: 100%;
+
+}
+.nest
+{
+    display: none;
 }
 }
